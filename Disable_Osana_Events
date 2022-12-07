@@ -1,0 +1,9 @@
+//This script will disable osana's events if you're creating a custom rival
+//If your rival or raibaru and senpai have a different name, change Student_11 (Osana Najimi) to the name of your rival, same for senpai and raibaru
+EnableGameObject:OsanaEvents:false
+Pathfinding.Enabled:Student_11 (Osana Najimi):true
+Pathfinding.Enabled:Student_10 (Raibaru Fumetsu):true
+Pathfinding.Enabled:Student_1 (Taro Yamada):true
+InEvent:Student_11 (Osana Najimi):false
+InEvent:Student_10 (Raibaru Fumetsu):false
+InEvent:Student_1 (Taro Yamada):false
